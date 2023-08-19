@@ -6,6 +6,10 @@
 
 # Hikuru Aleo Domain Smart Contract
 
+### Deployed contract
+[hikuru_passport_v1.aleo](https://explorer.hamp.app/program?id=hikuru_passport_v1.aleo)
+
+
 ## Introduction
 This is the official documentation for the Hikuru Aleo Domain smart contract, authored by Hikuru. This contract is built on Aleo, a blockchain platform, and it manages the ownership and registration of unique names (NFTs) associated with user accounts. In this document, we will provide an overview of the contract's functionality, with a specific focus on the registration process and how data is stored.
 
