@@ -1,0 +1,32 @@
+[initialize_collection]
+total: u128 = 0u128;
+symbol: u128 = 7564897u128;
+base_uri: BaseURI = BaseURI { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+
+[update_base_uri]
+base_uri: BaseURI = BaseURI { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+
+[update_toggle_settings]
+toggle_settings_bitstring: u32 = 0u32;
+
+[register]
+name: Name = Name { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+start_time: u64 = 0u64;
+months: u64 = 0u64;
+multiplier: u64 = 1u64;
+
+[set_primary_name]
+name: Name = Name { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+
+[burn]
+name: Name = Name { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 };
+
+[transfer_public]
+nft: NFT = NFT { 
+    owner: aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl,
+    data: TokenId {data1: 0u128, data2: 0u128},
+    edition: 0scalar,
+    name: Name { data0: 0u128,data1: 0u128, data2: 0u128, data3: 0u128 },
+    end_time: 0u64,
+ };
+receiver: address = aleo1geqft8epz9kurdv7fqfrwe4l75dw240jvhmt9x7ennftz9gt2q8q86hzjl;
