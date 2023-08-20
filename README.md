@@ -7,7 +7,7 @@
 # Hikuru Aleo Domain Smart Contract
 
 ### Deployed contract
-[hikuru_passport_v1.aleo](https://explorer.hamp.app/program?id=hikuru_passport_v1.aleo)
+[hikuru_ans_v1.aleo](https://explorer.hamp.app/program?id=hikuru_ans_v1.aleo)
 
 
 ## Introduction
