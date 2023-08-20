@@ -73,25 +73,36 @@ The Hikuru Aleo Domain smart contract is designed to manage the registration and
 
 ### Initialize Collection
 - `initialize_collection`: Initializes the collection (can only be called once by the contract owner).
+  - `total`: total number of nfts that can be created
+  - `symbol`: short collection symbol
+  - `base_uri`: url to base collection info directory
 
 ### Update Base URI
-- `update_base_uri`: Updates the base URI for NFTs. 
+- `update_base_uri`: Updates the base URI for NFTs.
+  - `base_uri`: url to base collection info directory
 
 ### Update Toggle Settings
 - `update_toggle_settings`: Toggles minting, whitelist requirement, or freezes the contract.
+  - `toggle_settings_bitstring`: way to manage the collection
 
 ### Register
 - `register`: Registers a new user with the NFT collection. Main function for minting NFTs - can only be called by minters.
+  - `name`: name the user wants to register
+  - `start_time`: real time timestamp
+  - `months`: number of months for which the user wants to reserve a name.
 
 ### Set Primary Name
 - `set_primary_name`: Sets the primary name for a user.
+  - `name`: main name which user want to use in search
 
 ### Burn
 - `burn`: Burns (destroys) an NFT.
+  - `name`: name which user want to destroy for him/herself
 
 ### Transfer Public
 - `transfer_public`: Transfers an NFT to another user.
-
+   - `nft`: nft object which user want to transfer
+   - `receiver`: address of new owner of nft
 ---
 
 ## Getting Started
