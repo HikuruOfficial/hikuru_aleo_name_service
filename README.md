@@ -11,7 +11,7 @@
 
 
 ## Introduction
-This is the official documentation for the Hikuru Aleo Domain smart contract, authored by Hikuru. This contract is built on Aleo, a blockchain platform, and it manages the ownership and registration of unique names (NFTs) associated with user accounts. In this document, we will provide an overview of the contract's functionality, with a specific focus on the registration process and how data is stored.
+This is the official documentation for the Hikuru Aleo Domain smart contract, authored by Hikuru. This contract is built on Aleo, a blockchain platform, and it manages the ownership and registration of unique names (NFTs) associated with user accounts. In this document, we will provide an overview of the contract's functionality, with a specific focus on the registration process and how data is stored. Build on Aleo NFT standard `ARC721`
 
 ## Table of Contents
 1. [Contract Overview](#contract-overview)
