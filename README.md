@@ -133,12 +133,14 @@ This smart contract is deployed on the Aleo blockchain and can be accessed throu
 
 7. Transfer Public: Transfer an NFT to another user.
 
+
 ---
 
 ## Support
 For any questions or support related to this contract, please contact Hikuru at [https://hikuru.com](https://hikuru.com).
 
 ---
+
 
 ## License
 This smart contract and documentation are provided under the [license terms](#) specified by Hikuru.
